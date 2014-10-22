@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/uken/JSONKit.git', :tag => s.version.to_s }
 
   s.source_files   = 'JSONKit.{h,m}'
+  s.requires_arc = false
 end
